@@ -34,7 +34,8 @@
         "setdesign_python.md",
         "setdesign_python_activity2.md",
         "tutorial.md",
-        "tutorial_python.md"
+        "tutorial_python.md",
+        "tutorial-info-cache.json"
     ],
     "testFiles": [],
     "public": true,
