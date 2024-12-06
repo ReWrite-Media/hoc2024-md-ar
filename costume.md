@@ -1,38 +1,31 @@
+### @flyoutOnly true
+### @hideIteration true
+### @explicitHints true
 
-/**
-* Use this file to define custom functions and blocks.
-* Read more at https://minecraft.makecode.com/blocks/custom
-*/
+# اختر الأزياء
 
-enum MyEnum {
-    //% block="one"
-    One,
-    //% block="two"
-    Two
-}
+## الخطوة الاولى
+حان الوقت لاختيار بعض الأزياء! اجمع الأشكال المختلفة معًا ``||hoc:head, body, and legs||`` .نسق الأزياء التي ترغب في أن يرتديها الروبوت أثناء العرض
 
-/**
- * Custom blocks
- */
-//% weight=100 color=#0fbc11 icon=""
-namespace custom {
-    /**
-     * TODO: describe your function here
-     * @param n describe parameter here, eg: 5
-     * @param s describe parameter here, eg: "Hello"
-     * @param e describe parameter here
-     */
-    //% block
-    export function foo(n: number, s: string, e: MyEnum): void {
-        // Add code here
+#### ~ tutorialhint
+بإمكانك استخدام ``||loops:repeat loop||`` بدلاً من استخدام عدة كتل للحفاظ على الزيّ
+لفترة أطول
+
+
+```ghost
+    hoc.costume()
+    for (let i = 0; i < 5; i++) {}
+```
+```template
+    hoc.costume(HeadWear.Knight_Helmet, MidWear.Cowboy_Shirt, LowerWear.Swim_Shorts)
+    hoc.costume(HeadWear.Superstar_Hat, MidWear.Ballerina_Shirt, LowerWear.Astronaut_Legs)
+    hoc.costume(HeadWear.Cowboy_Hat, MidWear.Green_TShirt, LowerWear.Khaki_Shorts)
+    hoc.costume(HeadWear.Construction_Helmet, MidWear.Varsity_Jacket, LowerWear.Black_Boots)
+    for (let i = 0; i < 3; i++) {
+        hoc.costume(HeadWear.Sun_Glasses, MidWear.Basketball_Jersey, LowerWear.Cowboy_Pants)
     }
+```
 
-    /**
-     * TODO: describe your function here
-     * @param value describe value here, eg: 5
-     */
-    //% block
-    export function fib(value: number): number {
-        return value <= 1 ? value : fib(value -1) + fib(value - 2);
-    }
-}
+```package
+hoc2024-ts=github:ReWrite-Media/hoc2024-ts/n/costume
+```

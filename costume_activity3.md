@@ -1,38 +1,20 @@
+### @flyoutOnly true
+### @hideIteration true
+### @explicitHints true
 
-/**
-* Use this file to define custom functions and blocks.
-* Read more at https://minecraft.makecode.com/blocks/custom
-*/
+# اختر الأزياء
 
-enum MyEnum {
-    //% block="one"
-    One,
-    //% block="two"
-    Two
-}
+## الخطوة الأولى
+ثلاثة أقفال وهذا من الماس!؟ لابد أنه الأخير. احصل على الكود من القفل الماسي واكتشف قطع الأزياء التي يحتاجها.
 
-/**
- * Custom blocks
- */
-//% weight=100 color=#0fbc11 icon=""
-namespace custom {
-    /**
-     * TODO: describe your function here
-     * @param n describe parameter here, eg: 5
-     * @param s describe parameter here, eg: "Hello"
-     * @param e describe parameter here
-     */
-    //% block
-    export function foo(n: number, s: string, e: MyEnum): void {
-        // Add code here
-    }
 
-    /**
-     * TODO: describe your function here
-     * @param value describe value here, eg: 5
-     */
-    //% block
-    export function fib(value: number): number {
-        return value <= 1 ? value : fib(value -1) + fib(value - 2);
-    }
-}
+```ghost
+    hoc._costume_activity(HeadWear_Activity.Knight_Helmet, MidWear_Activity.Knight_Top, LowerWear_Activity.Knight_Legs)
+```
+```template     
+    \\
+```
+
+```package
+hoc2024-ts=github:ReWrite-Media/hoc2024-ts/n/costume
+```
