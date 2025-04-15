@@ -20,5 +20,5 @@ hoc.armorstand_dance(ArmorStand.Four, Dance.GolemGallop)
 
 
 ```package
-hoc2024-ts=github:ReWrite-Media/hoc2024-ts/n/dance
+hoc2024-ts-ar=github:ReWrite-Media/hoc2024-ts-ar/n/dance
 ```

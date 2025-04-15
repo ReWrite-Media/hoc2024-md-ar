@@ -14,9 +14,9 @@ for i in range(3):
 ```
 
 ## اختر الأزياء
-حان الوقت لاختيار بعض الأزياء! اجمع الأشكال المختلفة معًا ``||hoc:head, body, and legs||`` من الأزياء باستخدام الوظيفة ``||hoc:hoc.costume()||`` .
+حان الوقت لاختيار بعض الأزياء! اجمع الأشكال المختلفة معًا ``||hoc:الرأس والجسم والساقين||`` من الأزياء باستخدام الوظيفة ``||hoc:hoc.costume()||`` .
 
 
 ```package
-hoc2024-ts=github:ReWrite-Media/hoc2024-ts/n/costume
+hoc2024-ts-ar=github:ReWrite-Media/hoc2024-ts-ar/n/costume
 ```

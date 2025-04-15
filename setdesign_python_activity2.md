@@ -16,5 +16,5 @@ hoc.set(Biome.Taiga, Time.Day, Climate.Clear)
 
 
 ```package
-hoc2024-ts=github:ReWrite-Media/hoc2024-ts/n/set
+hoc2024-ts-ar=github:ReWrite-Media/hoc2024-ts-ar/n/set
 ```

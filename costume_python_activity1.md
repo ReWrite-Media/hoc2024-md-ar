@@ -18,5 +18,5 @@ hoc.costume(HeadWear.Knight_Helmet, MidWear.Cowboy_Shirt, LowerWear.Ballerina_Tu
 
 
 ```package
-hoc2024-ts=github:ReWrite-Media/hoc2024-ts/n/costume
+hoc2024-ts-ar=github:ReWrite-Media/hoc2024-ts-ar/n/costume
 ```

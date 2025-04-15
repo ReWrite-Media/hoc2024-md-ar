@@ -19,5 +19,5 @@ for i in range(3):
 لنقم بتصميم ديكورات العرض! اختر أي من ``||hoc:biome, time, and climate||`` التي يجب أن تعرض في كل فقرة من فقرات العرض ``||hoc:hoc.set()||`` .
 
 ```package
-hoc2024-ts=github:ReWrite-Media/hoc2024-ts/n/set
+hoc2024-ts-ar=github:ReWrite-Media/hoc2024-ts-ar/n/set
 ```
